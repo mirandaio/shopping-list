@@ -16,7 +16,7 @@ h3 {
   margin-top: 130px;
 }
 
-.list {
+ul {
   width: 336px;
   margin: 0 auto;
 }
@@ -30,4 +30,18 @@ input {
 
 input:focus {
   outline: none;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+}
+
+.check {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
 }
