@@ -17,13 +17,15 @@ h3 {
 }
 
 .list {
-  text-align: center;
+  width: 336px;
+  margin: 0 auto;
 }
 
 input {
+  display: block;
   width: 330px;
   height: 20px;
-  margin-top: 15px;
+  margin: 15px auto 0 auto;
 }
 
 input:focus {
