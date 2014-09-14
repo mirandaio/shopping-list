@@ -33,11 +33,14 @@ ul {
 
 input {
   display: block;
-  width: 330px;
+  width: 323px;
   height: 20px;
   margin: 15px auto 0 auto;
   border-radius: 8px;
   background-color: #2c8399;
+  color: #36363b;
+  font-size: 15px;
+  padding-left: 9px;
 }
 
 input:focus {
@@ -75,7 +78,7 @@ li {
   margin-top: 4px;
   padding: 0 7px;
   line-height: 27px;
-  color: #36363B;
+  color: #36363b;
 }
 
 .close {
