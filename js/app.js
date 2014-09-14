@@ -1,4 +1,5 @@
 $(function() {
+  $('.sortable').sortable();
   $('input').keydown(function(event) {
     if(event.which == 13) {
       var val = $(this).val();

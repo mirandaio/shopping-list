@@ -45,3 +45,10 @@ input:focus {
   background-color: black;
   cursor: pointer;
 }
+
+li {
+  background-color: #ffda99;
+  height: 27px;
+  border-radius: 8px;
+  margin-top: 4px;
+}
