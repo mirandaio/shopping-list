@@ -7,7 +7,7 @@ $(function() {
       var item = $('<li><span class="check"></span>' + val + 
         '<span class="close">x</span></li>');
       item.find('.check').click(function() {
-        item.css('text-decoration', 'line-through');
+        item.toggleClass('checked');
       });
       item.find('.close').click(function() {
         item.remove();
