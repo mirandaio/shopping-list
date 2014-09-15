@@ -88,3 +88,17 @@ li {
 .close:hover {
   color: #ff2a38;
 }
+
+button {
+  display: block;
+  margin: 4px auto 0 auto;
+  border: 0;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #575757;
+}
