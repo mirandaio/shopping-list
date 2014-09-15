@@ -3,7 +3,7 @@ $(function() {
   $('input').keydown(function(event) {
     if(event.which == 13) {
       var val = $(this).val();
-      if(val.length > 0) {
+      if(val.trim().length > 0) {
         $(this).val('');
         var item = $('<li><span class="check"></span>' + val + 
           '<span class="close">x</span></li>');
