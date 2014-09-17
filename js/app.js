@@ -5,8 +5,9 @@ $(function() {
       var val = $(this).val();
       if(val.trim().length > 0) {
         $(this).val('');
-        var item = $('<li><span class="check"></span>' + val + 
-          '<span class="close">x</span></li>');
+        var item = $('<li><span class="check"></span>' +
+          '<span contenteditable="true">' + val + 
+          '</span><span class="close">x</span></li>');
         item.find('.check').click(function() {
           item.toggleClass('checked');
         });
