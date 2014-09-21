@@ -6,8 +6,8 @@ $(function() {
       if(val.trim().length > 0) {
         $(this).val('');
         var item = $('<li><span class="check"></span>' +
-          '<span contenteditable="true">' + val + 
-          '</span><span class="close">x</span></li>');
+          '<input class="item" type="text" value="' + val + '">' +
+          '<span class="close">x</span></li>');
         item.find('.check').click(function() {
           item.toggleClass('checked');
         });
