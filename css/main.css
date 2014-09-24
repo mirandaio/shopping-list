@@ -16,7 +16,7 @@ h1 {
   font-size: 58px;
 }
 
-img {
+.logo-container img {
   position: relative;
   top: 5px;
   width: 110px;
@@ -28,6 +28,16 @@ aside {
   top: 150px;
   bottom: 0;
   width: 230px;
+}
+
+aside h2 {
+  display: table;
+  margin: 0 auto;
+}
+
+aside div {
+  display: table;
+  margin: 0 auto;
 }
 
 section {
