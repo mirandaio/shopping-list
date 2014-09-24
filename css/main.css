@@ -1,16 +1,25 @@
 header {
-  text-align: center;
   height: 150px;
 }
 
-header img {
-  width: 100px;
+.logo-container {
+  height: 100%;
+  width: 360px;
+  margin: 0 auto;
 }
 
 h1 {
   display: inline;
+  position: relative;
+  bottom: 22px;
   font-family: 'Rancho', cursive;
   font-size: 58px;
+}
+
+img {
+  position: relative;
+  top: 5px;
+  width: 110px;
 }
 
 aside {
